@@ -57,7 +57,7 @@ a:link {
 }
 
 a:visited {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 a:hover, a:focus {
@@ -141,7 +141,7 @@ button:focus,
 }
 /* wanted to make an animation here instead, but don't know how */
 .current a{
-  color: var(--primary-color)
+  color: var(--mustardYellow)
 }
 
 /* Profile Home */

@@ -161,6 +161,14 @@ button:focus,
   border-radius: 50%;
 }
 
+.profile-text {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+  }
+
 span {
   color: var(--mustardYellow);
 }

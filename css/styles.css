@@ -146,15 +146,9 @@ button:focus,
   display: inline-block;
   margin-left: 15px;
 }
-<<<<<<< HEAD
-/* wanted to make an animation here instead, but don't know how */
-.current a{
-  color: var(--mustardYellow);
-=======
 
 .current a {
   color: var(--fourth-color);
->>>>>>> gh-pages
 }
 
 /* Profile Home */

@@ -61,7 +61,6 @@ h3 {
   font-size: 20px;
 }
 
-/* I'm keeping them all the same color */
 a:link {
   color: var(--primary-color);
   text-decoration: none;
@@ -112,7 +111,7 @@ button:focus,
 
 .button_secondary {
   background-color: var(--secondary-color);
-  color: var(--tertiary-color); /* color suggested by tota11y tool */
+  color: var(--tertiary-color);
 }
 
 /* Header */
@@ -130,7 +129,6 @@ button:focus,
   flex: 0 1 200px;
 }
 
-/* shorter version is also width */
 .page-header__item:first-child {
   width: 200px;
   max-height: 71px;
@@ -212,7 +210,7 @@ span {
   }
 }
 
-/* ‚could also be written short with: animation: 4s color-change etc. in one line */
+/* could also be written short with: animation: 4s color-change etc. in one line */
 .sun {
   animation-duration: 4s;
   animation-name: color-change;
@@ -299,7 +297,6 @@ span {
 /* Contact */
 
 .address {
-  /* to override deafault font-style of italic */
   font-style: normal;
   font-size: 16px;
 }

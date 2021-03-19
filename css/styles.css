@@ -24,8 +24,11 @@ html {
 }
 
 body {
+  background-color: #bee0d9; /* fallback */
   background-color: var(--background-color);
-  color: var(--primary-color); /* means text color */
+  color: #06495b; /* fallback */
+  color: var(--primary-color);
+  font-family: 'Noto Sans', sans-serif; /* fallback */
   font-family: var(--fontText);
   font-weight: 400;
   font-size: 18px;
@@ -309,6 +312,7 @@ textarea {
   font-family: inherit;
   font-size: 18px;
   color: var(--primary-color);
+  margin-bottom: 15px;
 }
 
 /* Footer */
@@ -328,6 +332,10 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.social_media a {
+  margin: 5px;
 }
 
 /* Media Queries */

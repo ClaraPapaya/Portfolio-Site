@@ -298,7 +298,12 @@ span {
 
 .project-link {
   font-size: 14px;
-  padding: 10px;
+  padding: 8px;
+  font-weight: bold; 
+}
+
+.project-link:link {
+  color: var( --fourth-color);
 }
 
 /* Contact */

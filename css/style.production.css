@@ -13,6 +13,7 @@ other colors to play around with: #2b2b2b dark grey #000 black, #006b66 (teal gr
   --secondary-color: #5eaaa8;
   --tertiary-color: #003b4a;
   --fourth-color: #785b00;
+  --projectlink-color: #b99216;
 }
 
 /* Variables for fonts */
@@ -409,8 +410,9 @@ span {
   font-weight: bold; 
 }
 
-.project-link:link {
-  color: var( --fourth-color);
+.project-link:link,
+.project-link:visited {
+  color: var( --projectlink-color);
 }
 
 /* Contact */

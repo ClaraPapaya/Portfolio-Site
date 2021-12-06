@@ -6,5 +6,5 @@ This is my first coding project where creates a personal website with informatio
 Create a simple three-page website using HTML and CSS. This website will give information on the developer, their work and contacts.
 ## Built With
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * Code Editors [Atom](https://atom.io/) and [VSCode](https://code.visualstudio.com/)

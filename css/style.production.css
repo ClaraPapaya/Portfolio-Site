@@ -415,6 +415,11 @@ span {
   color: var( --projectlink-color);
 }
 
+.project-link-api:link,
+.project-link-api:visited {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
 /* Contact */
 
 .address {

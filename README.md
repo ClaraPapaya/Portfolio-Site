@@ -1,5 +1,5 @@
 # Portfolio-Site
-This project is hosted on gh-pages [here](https://clarapapaya.github.io/Portfolio-Site/).
+This project is hosted on GitHub Pages [here](https://clarapapaya.github.io/Portfolio-Site/).
 ## About the Project
 This is my first coding project creating a personal website with information about me and my work in programming.
 ## Objective

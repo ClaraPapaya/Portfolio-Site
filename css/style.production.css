@@ -48,7 +48,7 @@ body {
 }
 
 section {
-  padding-top: 150px;
+  padding-top: 170px;
 }
 
 /* Global */
@@ -216,6 +216,7 @@ button:focus,
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0 20px;
 }
 
 span {
@@ -280,7 +281,7 @@ span {
   border: 2px solid var(--secondary-color);
   width: auto;
   min-height: auto;
-  margin: 0;
+  margin: 0 7px;
   -webkit-box-shadow: 0 4px 4px 2px var(--secondary-color);
           box-shadow: 0 4px 4px 2px var(--secondary-color);
 }
@@ -320,6 +321,7 @@ span {
 
 .address {
   font-style: normal;
+  padding: 0 20px;
 }
 
 .contact-link {

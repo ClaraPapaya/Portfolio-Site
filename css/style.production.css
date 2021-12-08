@@ -89,7 +89,7 @@ a:focus {
 }
 
 a:active {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 button,
@@ -182,15 +182,6 @@ button:focus,
   margin-left: 15px;
 }
 
-.current a {
-  color: var(--fourth-color);
-}
-
-.page-header-shim{
-  height: 50px;
-  width: 100%;
-  visibility: hidden;
-}
 /* Home */
 
 .profile {

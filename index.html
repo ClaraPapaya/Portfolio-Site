@@ -26,19 +26,21 @@
           <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
         </li>
         <li role="presentation">
-          <a href="./html/about.html" role="menuitem" class="navigation-list__item">About Me</a>
+          <a href="#aboutMe" role="menuitem" class="navigation-list__item">About Me</a>
         </li>
         <li role="presentation">
-          <a href="./html/work.html" role="menuitem" class="navigation-list__item">Work</a>
+          <a href="#work" role="menuitem" class="navigation-list__item">Work</a>
         </li>
         <li role="presentation">
-          <a href="./html/contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+          <a href="#contact" role="menuitem" class="navigation-list__item">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <main class="profile">
+  <div class="page-header-shim"></div>
+
+  <section class="profile">
     <img src="./img/profile_photo.jpg" class="profile_photo" alt="A photograph of me.">
     <div class="profile-text">
       <h1>Hello World</h1>
@@ -46,7 +48,86 @@
       </p>
       <a class="code-link" href="https://github.com/ClaraPapaya" target="_blank">Check out some of my code</a>
     </div>
-  </main>
+  </section>
+
+  <section id="aboutMe">
+    <div class="profile-text">
+      <h1>A bit more about me</h1>
+      <p>
+        I am currently studying to be a <span>web</span> developer.<br>
+        I like animals, traveling, and yoga.<br>
+        My favourite places are the ocean and tropical rain forest.<br>
+        I am passionate about the environment and sustainable development.<br>
+      </p>
+    </div>
+    <div class="button-experience">
+      <a class="button" href="https://www.linkedin.com/in/clara-w-948b9772" target="_blank">See my experience</a>
+    </div>
+  </section>
+
+  <section id="work">
+    <h1>Have a look at some of my recent projects</h1>
+    <div class="grid">
+      <div class="grid__item">
+        <img class="project-image" src="./img/ChatApp.jpg" alt="Image of three phone screens of the app">
+        <h3>Chat App</h3>
+        <p class="project-text">A React Native app that allows users to log into a chat screen and speak with other
+          users,
+          including taking photos, sending images and location. It was built using Expo, Gifted Chat and Firebase.</p>
+        <a class="project-link" href="https://github.com/ClaraPapaya/ChatApp" target="_blank">See project on GitHub</a>
+      </div>
+      <div class="grid__item">
+        <img class="project-image" src="./img/MyMoviesReact.jpg"
+          alt="Image of the welcome view of the app with log in form">
+        <h3>MyMovies React App</h3>
+        <p class="project-text">An app built with React that shows a list of movies, offers details and a user profile.
+          It uses a <a class="project-link-api" href="https://github.com/ClaraPapaya/myMovies-api" target="_blank">REST
+            Api</a> that is
+          hosted on Heroku.
+        </p>
+        <a class="project-link" href="https://github.com/ClaraPapaya/myMovies-client" target="_blank">See project on
+          GitHub</a>
+        <a class="project-link" href="https://allmymovies.netlify.app/" target="_blank">MyMovies App</a>
+      </div>
+      <div class="grid__item">
+        <img class="project-image" src="./img/MyMoviesAngular.jpg" alt="Image of the MyMovies Angular app after log in">
+        <h3>MyMovies Angular App</h3>
+        <p class="project-text">An Angualar app built with the same <a class="project-link-api"
+            href="https://github.com/ClaraPapaya/myMovies-api" target="_blank">REST Api</a> uses TypeScript, RxJS and
+          Material to show a
+          list of movies, offer movie details and a user profile.
+        </p>
+        <a class="project-link" href="https://github.com/ClaraPapaya/myMovies-Angular-client" target="_blank">See
+          project on
+          GitHub</a>
+        <a class="project-link" href="https://clarapapaya.github.io/myMovies-Angular-client/" target="_blank">MyMovies
+          App</a>
+      </div>
+      <div class="grid__item">
+        <img class="project-image" src="./img/Meet_App.jpg" alt="Image of the web app">
+        <h3>Meet App</h3>
+        <p class="project-text">This is a serverless, progressive web application (PWA) built with React using a
+          test-driven development (TDD) technique. The app uses the Google Calendar API to fetch upcoming events.</p>
+        <a class="project-link" href="https://github.com/ClaraPapaya/MeetApp" target="_blank">See project on GitHub</a>
+        <a class="project-link" href="https://clarapapaya.github.io/MeetApp/" target="_blank">Meet App</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1>Contact</h1>
+    <address class="address">
+      I am based in Berlin but am open to work remotely as well.<br>
+      You can contact me via <a class="contact-link" href="https://www.linkedin.com/in/clara-w-948b9772" target="_blank"
+        title="LinkedIn">LinkedIn</a><br>
+      Or email me: <a
+        href="mailto:clarawiegand@gmx.de?subject=Looking%20for%20a%20new%20challenge%3F&body=Hello%20Clara%2C%0D%0A%0D%0Awe%20are%20interested%20in%20your%20portfolio%20and%20would%20like%20to%20meet%20you.">clarawiegand(at)gmx(dot)de</a><br>
+      You can also pay a visit to my <a class="contact-link" href="https://twitter.com/Papaya42609586" target="_blank"
+        title="Twitter">Twitter</a> and
+      <a class="contact-link" href="https://medium.com/@MarlPapaya" target="_blank" title="Medium">Medium</a> accounts
+      and follow me there.
+    </address>
+  </section><br>
 
   <footer class="page-footer">
     <p>Find me on</p>
@@ -61,8 +142,8 @@
         title="Stackoverflow">
         <img src="./img/stackoverflow_icon.svg" alt="Stackoverflow">
       </a>
-      <a href="https://www.linkedin.com/in/clara-w-948b9772" target="_blank" title="LinkedIn">
-        <img src="./img/linkedin_icon.svg" alt="LinkedIn">
+      <a href="https://twitter.com/Papaya42609586" target="_blank" title="Twitter">
+        <img src="./img/twitter_icon.svg" alt="Twitter">
       </a>
     </div>
     <div class="credits">

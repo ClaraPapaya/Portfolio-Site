@@ -8,3 +8,6 @@ Create a simple three-page website using HTML and CSS. This website will give in
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * Code Editors [Atom](https://atom.io/) and [VSCode](https://code.visualstudio.com/)
+## Project Status
+* changed from three-page to one-page site
+* new projects are being added 
